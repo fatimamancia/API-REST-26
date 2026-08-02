@@ -13,7 +13,33 @@ API REST desarrollada con **Node.js**, **Express**, **PostgreSQL** y **Prisma OR
 ## Estructura del proyecto
 
 API-REST/ 
-API-REST/ ├── prisma/ ├── src/ │ ├── lib/ │ ├── middleware/ │ ├── routes/ │ └── index.js ├── .env ├── package.json └── nodemon.json
+## Estructura del proyecto
+
+```text
+API-REST/
+│
+├── prisma/
+│   └── schema.prisma
+│
+├── src/
+│   │
+│   ├── lib/
+│   │   └── prisma.js
+│   │
+│   ├── middleware/
+│   │   ├── apikey.middleware.js
+│   │   └── auth.middleware.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   └── user.routes.js
+│   │
+│   └── index.js
+│
+├── .env
+├── nodemon.json
+└── package.json
+```
 
 ## Instalación
 
