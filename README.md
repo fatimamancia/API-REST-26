@@ -17,25 +17,18 @@ API-REST/
 
 ```text
 API-REST/
-│
 ├── prisma/
 │   └── schema.prisma
-│
 ├── src/
-│   │
 │   ├── lib/
 │   │   └── prisma.js
-│   │
 │   ├── middleware/
 │   │   ├── apikey.middleware.js
 │   │   └── auth.middleware.js
-│   │
 │   ├── routes/
 │   │   ├── auth.routes.js
 │   │   └── user.routes.js
-│   │
 │   └── index.js
-│
 ├── .env
 ├── nodemon.json
 └── package.json
